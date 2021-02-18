@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/app.js"],{
 
 /***/ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js":
 /*!***************************************************************!*\
@@ -363,20 +363,20 @@ var e,t=(e=__webpack_require__(/*! querystring */ "./node_modules/querystring-es
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2Fapp.js!./":
 /*!*********************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2Fapp.js ***!
   \*********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     (window.__NEXT_P=window.__NEXT_P||[]).push(["/_app", function() {
-      var mod = __webpack_require__(/*! private-next-pages/_app.js */ "./pages/_app.js")
+      var mod = __webpack_require__(/*! private-next-pages/app.js */ "./pages/app.js")
       if(true) {
-        module.hot.accept(/*! private-next-pages/_app.js */ "./pages/_app.js", function() {
+        module.hot.accept(/*! private-next-pages/app.js */ "./pages/app.js", function() {
           if(!next.router.components["/_app"]) return
-          var updatedPage = __webpack_require__(/*! private-next-pages/_app.js */ "./pages/_app.js")
+          var updatedPage = __webpack_require__(/*! private-next-pages/app.js */ "./pages/app.js")
           next.router.update("/_app", updatedPage)
         })
       }
@@ -943,7 +943,7 @@ var Router = /*#__PURE__*/function () {
         __N_SSG: mod.__N_SSG,
         __N_SSP: mod.__N_SSP
       });
-      this.components[route] = newData; // pages/_app.js updated
+      this.components[route] = newData; // pages/app.js updated
 
       if (route === '/_app') {
         this.notify(this.components[this.route]);
@@ -3014,9 +3014,9 @@ try {
 
 /***/ }),
 
-/***/ "./pages/_app.js":
+/***/ "./pages/app.js":
 /*!***********************!*\
-  !*** ./pages/_app.js ***!
+  !*** ./pages/app.js ***!
   \***********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3030,10 +3030,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/react-modal-video/scss/modal-video.scss */ "./node_modules/react-modal-video/scss/modal-video.scss");
 /* harmony import */ var _node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "/home/qtpi/antony/sources/qtlearn-lms/pages/_app.js";
+var _jsxFileName = "/home/qtpi/antony/sources/qtlearn-lms/pages/app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
- // This default export is required in a new `pages/_app.js` file.
+ // This default export is required in a new `pages/app.js` file.
 
 function MyApp(_ref) {
   var Component = _ref.Component,
@@ -3052,12 +3052,12 @@ function MyApp(_ref) {
 
 /***/ 0:
 /*!*******************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js ./node_modules/next/dist/client/router.js ***!
+  !*** multi next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2Fapp.js ./node_modules/next/dist/client/router.js ***!
   \*******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
+__webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2Fapp.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2Fapp.js!./");
 module.exports = __webpack_require__(/*! /home/qtpi/antony/sources/qtlearn-lms/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
 
 
@@ -3075,4 +3075,4 @@ module.exports = dll_2adc2403d89adc16ead0;
 /***/ })
 
 },[[0,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=_app.js.map
+//# sourceMappingURL=app.js.map
